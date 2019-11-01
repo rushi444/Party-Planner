@@ -6,7 +6,7 @@ router.get('/', (req, res) => {
 });
 
 router.post('/', (req, res) => {
-    res.send('Log in user');
-  });
+  res.send('Log in user');
+});
 
 module.exports = router;

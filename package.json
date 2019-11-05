@@ -1,7 +1,7 @@
 {
-  "name": "Phone Book",
+  "name": "phone-book",
   "version": "1.0.0",
-  "description": "Party Planner App",
+  "description": "Phone Book",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rushi444/Party-Planner.git"
+    "url": "git+https://github.com/rushi444/Phone-Book.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rushi444/Party-Planner/issues"
+    "url": "https://github.com/rushi444/Phone-Book/issues"
   },
-  "homepage": "https://github.com/rushi444/Party-Planner#readme",
+  "homepage": "https://github.com/rushi444/Phone-Book#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.2.4",

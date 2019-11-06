@@ -5,7 +5,7 @@
 Live: https://stormy-island-80939.herokuapp.com/
 
 ## Dependencies
-Front-End: axios, react-router-dom, react-transition-group
+Front-End: axios, react-router-dom, react-transition-group  
 Back-End: bcryptjs, express/express-validator, jsonwebtoken, mongoose
 
 ## Usage

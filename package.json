@@ -1,5 +1,5 @@
 {
-  "name": "Phone Book",
+  "name": "phone-book",
   "version": "1.0.0",
   "description": "Party Planner App",
   "main": "server.js",

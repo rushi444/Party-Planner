@@ -4,7 +4,7 @@ const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const config = require('config');
 const auth = require('../middleware/auth');
-const { check, validationResult } = require('express-validator/check');
+const { check, validationResult } = require('express-validator');
 
 const User = require('../models/User');
 
@@ -43,7 +43,7 @@ router.post(
       if (!isMatch) {
         return res
           .status(400)
-          .json({ msg: 'Invalid Credentials/Passwords do not match' });
+          .json({ msg: 'Invalid Credentials' });
       }
 
       const payload = {

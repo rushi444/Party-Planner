@@ -1,26 +1,27 @@
 {
   "name": "phone-book",
   "version": "1.0.0",
-  "description": "Party Planner App",
+  "description": "Phone Book",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "clientinstall": "npm install --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rushi444/Party-Planner.git"
+    "url": "git+https://github.com/rushi444/Phone-Book.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rushi444/Party-Planner/issues"
+    "url": "https://github.com/rushi444/Phone-Book/issues"
   },
-  "homepage": "https://github.com/rushi444/Party-Planner#readme",
+  "homepage": "https://github.com/rushi444/Phone-Book#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "config": "^3.2.4",
